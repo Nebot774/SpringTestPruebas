@@ -38,4 +38,6 @@ public class Driver {
     @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(name = "constructorid")
     private Constructor constructor;
+
+
 }
